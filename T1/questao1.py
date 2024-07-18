@@ -2,7 +2,6 @@
 e ponderado G(V, E, w), no qual V é o conjunto de vértices, E é o conjunto de arestas e w : E → R é a função que
 mapeia o peso de cada aresta {u, v} ∈ E'''
 
-
 class Grafo:
     def __init__(self):
         self.vertices = {}
