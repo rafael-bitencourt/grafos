@@ -1,4 +1,5 @@
 from questao1 import Grafo
+
 class Grafo_ciclio_euleriano(Grafo):
     def __init__(self):
         super().__init__()
