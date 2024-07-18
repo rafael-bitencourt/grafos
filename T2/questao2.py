@@ -1,7 +1,6 @@
 '''2) [Ordenação Topológica] (3,0pts) Crie um programa que receba um arquivo de grafo dirigido não-ponderado com
       vértices rotulados como argumento. O programa deve fazer executar uma Ordenação Topológica'''
 
-
 from grafo import Grafo
 import sys
 
