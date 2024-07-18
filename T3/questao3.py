@@ -3,7 +3,6 @@
    algoritmo de Lawler para cumprir essa questão. Ao final, imprima na tela a quantidade de cores encontradas (na
    primeira linha) e qual é a cor correspondente a cada vértice (segunda linha).'''
 
-
 from grafo import Grafo
 from itertools import chain, combinations
 import sys
