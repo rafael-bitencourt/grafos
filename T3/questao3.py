@@ -7,7 +7,6 @@ from grafo import Grafo
 from itertools import chain, combinations
 import sys
 
-
 def welsh_powell(nome_arquivo: str):
     G = Grafo(dirigido=False, ponderado=False)
     G.ler(nome_arquivo)
@@ -43,7 +42,6 @@ def imprimir_resultado(nome_arquivo: str):
         print(f"O vértice {v} tem cor {cor}")
 
 # printa_resultado('instances/coloracao/corWiki.net')
-
 
 #printa_resultado(sys.argv[1])
 arquivo = sys.argv[1]
